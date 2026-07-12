@@ -96,7 +96,7 @@ button:active {
 	box-sizing: border-box;
     padding: 10px;
 }
-@media (min-width: 200px) {
+@media (min-width: 400px) {
     .column {
         flex: 50%;
     }
@@ -154,4 +154,18 @@ button:active {
     padding: 15px 15px;
 	color: #FFFFFF;
     font-family: GothamLight;
+}
+.t{
+	background-color: #FF0000;
+	border-radius: 10px;
+	border: 1px solid;
+	border-color: red;
+}
+a{	
+	text-decoration: none;
+	color: red;
+}
+.t:active:
+	background-color: #FFFFFF;
+	border-radius: 20px;
 }
